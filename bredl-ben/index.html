@@ -2,28 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>@@MyName@@’s Card</title>
+    <title>Ben’s Card</title>
     <style>
       /* Styling */
+      .fancy {
+        font-family: Helvetica;
+        font-size: 50px;
+        font-weight: bold;
+        color: #333333;
+      }
+      .littlefancy {
+        font-family: Helvetica;
+        font-size: 26px;
+        font-weight: normal;
+        color: #333333;
+      }
+      .notfancy {
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: normal;
+        color: #888888;
+      }
     </style>
   </head>
   </head>
   <body>
     <header>
-      <h1>@@MyName</h1>
+      <h1 class="fancy">Ben</h1>
     </header>
     <main>
       <section aria-labelledby="bio-heading">
-        <h2 id="bio-heading">Bio</h2>
-        <p>@@About Me@@</p>
+        <h2 class= "littlefancy" id="bio-heading">Bio</h2>
+        <p class="notfancy">Lorem ipsum dolor sit amet, consetetur sadipscing elitr. </p>
+        <p class="notfancy">Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
       </section>
       <section aria-labelledby="hobbies-heading">
-        <h2 id="hobbies-heading">Hobbies</h2>
-        @@My Hobbies@@
+        <h2 class= "littlefancy" id="hobbies-heading">Hobbies</h2>
+        <p class="notfancy">My Hobbies</p>
       </section>
       <section aria-labelledby="workxp-heading">
-        <h2 id="workxp-heading">Work Experience</h2>
-        @@My Work Experience@@
+        <h2 class= "littlefancy" id="workxp-heading">Work Experience</h2>
+        <p class="notfancy">My Work Experience</p>
       </section>
     </main>
     <script>
